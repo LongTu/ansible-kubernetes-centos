@@ -18,7 +18,6 @@
 - hosts: minions
   sudo: yes
   roles:
-    - docker-registry
     - minion
 
 - hosts: masters
